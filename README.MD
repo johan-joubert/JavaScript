@@ -32,6 +32,7 @@ Décommenter la ligne puis recharger la page.
 ```js
 // console.log(myVariable);
 ```
+// myVariable n'est pas déclarée
 
 Que se passe-t-il et pourquoi ?
 
