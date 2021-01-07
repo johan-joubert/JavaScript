@@ -23,32 +23,32 @@
             if (height > 180) { // si la taille est supérieure à 180, j'affiche 'vous êtes grand'
                 console.log('Vous êtes grand');
             }
-            if (weight < 0) { 
+            if (weight < 0) { // si le poids est inférieur à 0 kg on affiche qu'il y a un problème
                 console.log('oups, there is a problem');
-            } else if ( weight < 15) {
+            } else if ( weight < 15) { // si le poids est inférieur à 0 kg on affiche "are you that slim ?"
                 console.log('Are you that slim ?')
-            } else {
-                console.log('Good !')
+            } else { 
+                console.log('Good !') // sinon on affiche 'good'
             }
         }
 
-        info(165, 45);
+        info(165, 45); // on appel la fonction info, en y insérant deux paramètres, 165, 45
 
-        var myHeight = 175;
-        var myWeight = 86;
+        var myHeight = 175; // on déclare une variable myHeight à laquelle on affecte 175
+        var myWeight = 86; // on déclare une variable myHeight à laquelle on affecte 86
 
-        info(myHeight, myWeight);
+        info(myHeight, myWeight); // on appel la fonction info, en y insérant deux paramètres, les variables myHeight et myWeight
 
-        info(myHeight + 15, myWeight - 100);
+        info(myHeight + 15, myWeight - 100); //  on appel la fonction info, en y insérant deux paramètres, les variables myHeight à laquelle on aditionne 15 et myWeight on soustrait 100
 
-        function toUpper(variable) {
-            return variable.toUpperCase();
+        function toUpper(variable) { // déclaration de fonction toUpper avec pour paramètre variable
+            return variable.toUpperCase(); // on retourne la variable à laquelle on ajoute la fonction toUpperCase pour passer tout en majuscule
         }
 
-        var upperName = toUpper(name);
+        var upperName = toUpper(name); // on déclare la var_able upperName à laquelle on assigne la fonction toUpper
 
-        for (i = 0; i < 3; i = i + 1) {
-            console.log(previousJobs[i]);
+        for (i = 0; i < 3; i = i + 1) { // on déclare une boucle  qui permettre d'afficher chaque élément du tableau jusqu'à l'index 2
+            console.log(previousJobs[i]); // on affiche les éléments du tableau avec pour index i qui est incrémenté de 1 à chaque passage de boucle
         }
 
         /* Section 2: */
